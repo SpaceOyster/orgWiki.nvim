@@ -12,6 +12,8 @@ orgwiki.setup({opts})                                            *orgwiki.setup*
         {opts}  Table containing configuration options
 		• wiki_path: A list of directories to be recognized as orgWiki
 		• diary_path: A string containing the path to the direcotry where diary entries must be stored
+		• index_filename* A string containing wiki index file name (default value: `"Index.org"`)
+		• diary_index_filename: A string containing diary index file name (default value: `"Index.org"`)
 		• keys: optional table with values to set up keybindings. When any of the keys are omitted, default mappings are used
 		    • create_or_follow = `"<CR>"`, --  Follow hyperlink under cursor
 		    • traverse_back = `"<BS>"`, -- Return to the parent file or top of the link stack
